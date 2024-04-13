@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário de Matrícula</title>
+</head>
+<body>
+  <header>
+    <img src="formulad-logo.png" alt="" width="250" id="ce">
+    <h2>Matrícula para o Campeonato de Fórmula Drift 2024</h2>
+    <nav class="right-align">
+      <ul>
+        <li><a href="https://www.formulad.com/">Início</a></li>
+        <li><a href="https://guide.formulad.com/">Sobre</a></li>
+        <li><a href="https://www.formulad.com/schedule/2024/long-beach">Ingressos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="formulario">
+    <form id="matricula-form" role="form" aria-labelledby="matricula-title"> 
+      <h1 id="matricula-title">Formulário de Matrícula</h1>
+    <div class="dados">
+      <div> 
+        <input type= "text" id="nome" name="nome" required aria-required="true" placeholder="Digite seu nome"> 
+    </div>
+    <div>   
+      <input type= "email" id="email" name="email" required aria-required="true" placeholder="Digite seu e-mail"> 
+  </div>
+      <input type="tel" id="telefone" name="telefone" required aria-required="true" placeholder="Digite seu telefone">  
+    </div>
+    <div> 
+        <select id="campeonato" name="campeonato" required aria-required="true"> 
+        <option value="">Matrícula do Campeonato</option> 
+        <option value="1">LONG BEACH, CALIFORNIA, USA</option> 
+        <option value="2">ATLANTA, GEORGIA, USA</option> 
+        <option value="3">ORLANDO, FLORIDA, USA</option> 
+    </select> 
+    </div>
+    <button type="submit">Enviar Matrícula</button> 
+</form>
+</div>
+</main>
+    <footer>
+    <p>© 2024 - Site de Matrícula - ARIA. Desenvolvido por Caio Dassi Vieira</p>
+    </footer>
+    </body>
+</html>
+    
